@@ -28,7 +28,7 @@ This project aims to create a Jenkins pipeline to deploy the Phonebook Applicati
 
     - Configure the app service to;
 
-      - pull the image of the app from the AWS ECR repository.
+      - pull the image of the app from the AWS ECR repository. !!!!!!!!important
 
       - deploy the one app for each swarm nodes using `global` mode.
 
