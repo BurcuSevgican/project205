@@ -1,0 +1,16 @@
+Create docker image using the `Dockerfile` from the base image of `python:alpine`.
+Create Docker compose yaml stack
+   -mysql:5.7
+   -init.sql
+   -pull the image of the app from AWS ECR repository
+   -global mode
+   -port 80
+
+
+
+Infrastructure:
+
+-create CFN template to deploy app into
+-5 nodes: 3 manager + 2 worker
+-Amazon Linux 2
+-dOCKER, aws CLI VERSION 2, GIT ,DOCKER SWARM,Amazon Credential Helper
