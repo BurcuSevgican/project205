@@ -70,7 +70,7 @@ pipeline {
                     }
                     catch(Exception) {
                       echo 'Could not connect Viz App'
-                      sleep(5)   
+                      sleep(10)   
                     }
                 }
             }
